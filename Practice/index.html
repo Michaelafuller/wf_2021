@@ -7,48 +7,92 @@
     <title>Example</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <h2>Hello 2</h2>
-    <h3>hello 3</h3>
-    <h4>hello 4</h4>
-    <h5>hello 5</h5>
-    <h6>hello 6</h6>
-<p>This is a paragraph</p>
-<p>Another paragraph</p>
-    <ul>
-            <li>Cat</li>
-            <li>Dog</li>
-            <li>Monkey</li>
-            <li>Koala</li>
-    </ul>
-    <ol>
-            <li>First step</li>
-            <li>Second step</li>
-            <li>Third step</li>
-            <li>Fourth...</li>
-    </ol>
-<table>
-    <tr>
-        <th>Title</th>
-        <th>Year</th>
-        <th>Rating</th>
-    </tr>
-    <tr>
-        <td>Up</td>
-        <td>2009</td>
-        <td>PG</td>
-    </tr>
-    <tr>
-        <td>The Matrix</td>
-        <td>1999</td>
-        <td>R</td>
-    </tr>
-</table>
-<img src="up.jfif" alt="'Up Promo Poster'">
-<video src="matrix.mp4" controls></video>
-<p></p>
-<a
-href="http://learn.codingdojo.com">Learning Platform</a>
-<p><em>This</em> is an <strong>example!</strong></p>
+        <h1>Hello World!</h1>
+        <h2>Hello 2</h2>
+        <h3>hello 3</h3>
+        <h4>hello 4</h4>
+        <h5>hello 5</h5>
+        <h6>hello 6</h6>
+    <p>This is a paragraph</p>
+    <p>Another paragraph</p>
+        <ul>
+                <li>Cat</li>
+                <li>Dog</li>
+                <li>Monkey</li>
+                <li>Koala</li>
+        </ul>
+        <ol>
+                <li>First step</li>
+                <li>Second step</li>
+                <li>Third step</li>
+                <li>Fourth...</li>
+        </ol>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>Up</td>
+            <td>2009</td>
+            <td>PG</td>
+        </tr>
+        <tr>
+            <td>The Matrix</td>
+            <td>1999</td>
+            <td>R</td>
+        </tr>
+    </table>
+    <img src="up.jfif" alt="'Up Promo Poster'">
+    <video src="matrix.mp4" controls></video>
+    <p></p>
+    <a
+    href="http://learn.codingdojo.com">Learning Platform</a>
+    <p><em>This</em> is an <strong>example!</strong></p>
+    <input type="text" name="first_name"></input>
+    <input type="number"  name="age"></input>
+    <input type="password" name="password"></input>
+    <input type="date" name="DOB"></input>
+    <input type="color" name="text_color"></input>
+    
+    <input type="radio" name="font" value="bold" id="bold"></input>
+    <label for="bold"><strong>Bold</strong></label>
+    
+    <input type="radio" name="font" value="normal" id="normal"></input>
+    <label for="normal">Normal</label>
+
+    <input type="checkbox" name="accept" id="accept"></input>
+    <label for="accept">I agree</label>
+
+    <textarea name="comment" cols="20" rows="3"></textarea>
+    
+    <select name="snack">
+        <option>Almonds</option>
+        <option>Cheese and Crackers</option>
+        <option>Pita and Hummus</option>
+        <option>Pears</option>
+    </select>
+
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">I would like 
+            to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!" >
+    </form>
+    
 </body>
 </html>
