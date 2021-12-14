@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    background-color: black;
+    text-align: left;
+    font-family: cursive;
+}
+
+.title_white{
+    color: white;
+}
+
+.title_cyan{
+    color: turquoise;
+}
+
+#projects_title{
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:100;
+}
+
+#contact_title{
+    background-color: cyan;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    font-family: sans-serif;
+}

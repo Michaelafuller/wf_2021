@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#search_button{
+    border: 3px solid seagreen;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-radius: 30px;
+    color: seagreen;
+    font-size: 20px;
+    margin: 60px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#add_button{
+    color: white;
+    background-color: turquoise;
+    border-radius: 50%;
+    border: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 30px;
+    margin: 60px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+#newaccount_button{
+    color: gainsboro;
+    background-color: blue;
+    border: 3px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 20px;
+    margin: 60px;
+    margin-top: 3px;
+    box-shadow: 5px 5px 5px black;
+}
