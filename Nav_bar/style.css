@@ -1,0 +1,37 @@
+.nav {
+    background-color:rgb(36, 48, 48);
+    display: flex;
+}
+
+.nav-title {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 240px;
+    font-weight: lighter;
+}
+
+.nav-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    color: white;
+}
+
+.active {
+    color: white;
+    font-weight: bolder;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    border: black;
+    box-shadow: black 5px 5px 5px;
+}
+
+.link {
+    color: white;
+    font-weight: lighter;
+}
