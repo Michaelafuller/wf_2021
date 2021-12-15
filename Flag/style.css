@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#container {
+    width: 900px;
+    height: 600px;
+}
+
+#left_green {
+    background-color: green;
+    height: 600px;
+    width: 290px;
+    color: green;
+}
+
+#mid_white {
+    background-color: white;
+    height: 600px;
+    width: 290px;
+    color: white;
+}
+
+#right_red {
+    background-color: red;
+    height: 600px;
+    width: 290px;
+    color: red;
+}   

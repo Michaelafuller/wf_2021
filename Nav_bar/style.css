@@ -1,37 +1,41 @@
 .nav {
     background-color:rgb(36, 48, 48);
     display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
 
 .nav-title {
     color: white;
     font-family: sans-serif;
     margin-left: 10px;
-    margin-right: 240px;
     font-weight: lighter;
 }
 
 .nav-links {
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    flex: 1;
     color: white;
+    background-color: rgb(36, 48, 48);
+    list-style-type: none;
 }
 
 .active {
-    color: white;
     font-weight: bolder;
+    color: white;
+    margin: 0px 20px;
 }
 
 .btn {
     color: white;
-    background-color: blue;
-    border: black;
+    background-color: teal;
+    border: black 5px;
     box-shadow: black 5px 5px 5px;
+    margin: 0px 20px;
+
 }
 
 .link {
-    color: white;
+    color: gray;
     font-weight: lighter;
 }
