@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    border: black solid 3px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+#profile img{
+    width: 100px;
+    position: absolute;
+    top: 53px;
+    margin-left: 15px;
+}    
+
+#header_col {
+    background-color: teal;
+    height: 100px;
+    width: 800px;
+}
+
+.body_col {
+    padding: 20px;
+    padding-top: 55px;
+}
+
+
+.body_col img {
+    width: 15px;
+}
+
+.margin_space_needed {
+    margin-top: 15px;
+}
