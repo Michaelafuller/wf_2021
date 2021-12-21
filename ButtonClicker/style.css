@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif; 
+}
+
+#container {
+    width: 650px;
+    margin: 0 60px;
+}
+
+/* navbar begins */
+
+#navbar {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+}
+
+#navbarSearch input {
+    width: 275px;
+    height: 30px;
+    border: black solid 1px;
+}
+
+#navbarLogin button {
+    background-color: blue;
+    color: white;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 5px;
+    width: 75px;
+    height: 30px;
+}
+
+/* navbar ends */
+/* body  */
+
+#body{
+    display: flex;
+}
+
+/* left column begins */
+
+#leftColumn {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.definitionCard {
+    display: flex;
+    border: black solid 1px;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+
+.defCardleft h3, span {
+    margin: 10px auto;
+    font-style: italic;
+}
+
+.defCardleft button {
+    background-color: yellow;
+    padding: 10px;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 5px;
+    margin-top: 10px;
+    width: 85px;
+    height: 35px;
+}
+
+.defCardright {
+    margin: auto 17px;
+}
+
+#rightColumn {
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 150px
+}
+
+#definitionAdd {
+    border: black solid 1px;
+    padding: 15px;
+}
+
+#definitionAdd span {
+    font-weight: bolder;
+}
+
+#definitionAdd button {
+    background-color: palegreen;
+    padding: 10px;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 5px;
+    width: 200px;
+    height: 35px;
+    align-content: center;
+    margin: 10px 0px;
+}

@@ -15,7 +15,7 @@
     color: white;
     display: inline-flex;
     width: inherit;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .profile {
-    margin: 0px 30px;
+    margin: 0px 40px;
 }
 
 .myprofile {
@@ -112,6 +112,10 @@
     background-color:rgb(33, 33, 33);
     color: white;
     padding: 20px;
+}
+
+#education_body {
+    padding: 15px;
 }
 
 #education_body h4 {
