@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes Part II</title>
+</head>
+<body>
+    <div id="container">
+        <div id="titlebar">
+            <h1>Network</h1>
+        </div>
+        <div id="feed">
+        <h1>Your Feed</h1>
+        </div>
+        <div id="body">
+            <div id="leftCol">
+                <div id="userProfile">
+                    <img src="images/user-circle.png" alt="user profile picture">
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+            <div id="rightCol">
+                <div class="friendFeed">
+                    <div class="friendHeader">
+                        <h2>Neil M</h2>
+                        <h3 id = "countlike">9 like(s)</h3>
+                        <button onclick="clickCounter()">Like</button>
+                    </div>
+                    <div class="friendBody">
+                        <h4>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></h4>
+                    </div>
+                </div>
+                <div class="friendFeed">
+                    <div class="friendHeader">
+                        <h2>Nichole K</h2>
+                        <h3 id = "nicholelike">12 like(s)</h3>
+                        <button onclick="nicholeCounter()">Like</button>
+                    </div>
+                    <div class="friendBody">
+                        <h4>Just finished my <a href="#">next comic</a>, check it out</h4>
+                    </div>
+                </div>
+                <div class="friendFeed">
+                    <div class="friendHeader">
+                        <h2>Jim R</h2>
+                        <h3 id = "jimlike">9 like(s)</h3>
+                        <button onclick="jimCounter()">Like</button>
+                    </div>
+                    <div class="friendBody">
+                        <h4>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

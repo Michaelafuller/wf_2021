@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 635px;
+    margin: 0 50px;
+}
+
+/* title bars */
+
+#titlebar {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#feed h1 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#body {
+    display: flex;
+}
+
+/* left column */
+
+#leftCol {
+    flex:1;
+}
+
+#userProfile {
+    border: black solid 1px;
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#userProfile img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+#userProfile a {
+    margin: 15px 0;
+    text-align: center;
+}
+/* right column */
+
+#rightCol {
+    flex: 3;
+}
+
+.friendFeed {
+    border: black solid 1px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.friendHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friendHeader button {
+    background-color: yellow;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 10px
+}
+
+.friendHeader h3 {
+    margin-left: 120px;
+}
+
+.friendBody {
+    margin-top: 15px;
+}
+
+#nicholelike {
+    margin-right: 40px;
+}
