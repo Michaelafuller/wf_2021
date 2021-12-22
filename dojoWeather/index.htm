@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="navbarTitle">
+                <h1>DojoWeather</h1>
+            </div>
+            <div id="navbarLinks">
+                <h3 onclick="clickAlert()">Burbank</h3>
+                <h3 onclick="clickAlert()" id = "linkSpace">Chicago</h3>
+                <h3 onclick="clickAlert()">Dallas</h3>
+            </div>
+        </div>
+        <div id="body">
+            <div id="bodyHeader">
+                <div id="headerLeft">
+                    <h2>San Jose</h2>
+                </div>
+                <div id="headerRight">
+                    <p>show temperature in</p>
+                    <select name="degreeFormat" id="degreeFormat">
+                        <option value="celsius">°C</option>
+                        <option onclick="changeTemp()" value="farenheit">°F</option>
+                    </select>
+                </div>
+            </div>
+            <div id="dailyCol">
+                <div id="dailyColtoday">
+                    <div class="weatherCol">
+                        <h3>Today</h3>
+                        <img src="assets/some_rain.png" alt="clouds with some rain">
+                        <p>some rain</p>
+                        <div class="tempDistance">
+                            <h4 class = "highRed">24°</h4>
+                            <h4 class = "lowBlue">18°</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="dailyColtomorrow">
+                    <div class="weatherCol">
+                        <h3>Tomorrow</h3>
+                        <img src="assets/some_sun.png" alt="mostly sunny">
+                        <p>some sun</p>
+                        <div class="tempDistance">
+                            <h4 class = "highRed">27°</h4>
+                            <h4 class = "lowBlue">19°</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="dailyColFri">
+                    <div class="weatherCol">
+                        <h3>Friday</h3>
+                        <img src="assets/some_clouds.png" alt="somewhat cloudy">
+                        <p>some clouds</p>
+                        <div class="tempDistance">
+                            <h4 class = "highRed">21°</h4>
+                            <h4 class = "lowBlue">16°</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="dailyColSat">
+                    <div class="weatherCol">
+                        <h3>Saturday</h3>
+                        <img src="assets/some_sun.png" alt="mostly sunny">
+                        <p>some sun</p>
+                        <div class="tempDistance">
+                            <h4 class = "highRed">26°</h4>
+                            <h4 class = "lowBlue">21°</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cookieBox">
+                <div id="cookieImg">
+                    <img src="assets/cookie.png" alt="">
+                </div>
+                <div id="cookieText">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <div id="cookieAccept">
+                    <button onclick="removeBox()">I Accept</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
