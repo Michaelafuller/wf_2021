@@ -7,5 +7,6 @@ function editProfile(){
 }
 
 function acceptDeny(){
-    
+    var removeme = document.getElementById("accDeny");
+    removeme.remove();
 }
